@@ -1,12 +1,13 @@
 ﻿using System;
+using UserController;
 
 namespace CSharpLogin
 {
-    class Program
+  class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+      new Day2().Login();
     }
+  }
 }
